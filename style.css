@@ -1,0 +1,21 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  p{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    border-bottom-style: inset;
+    border-top-style: inset;
+    border-left-style: inset;
+    border-right-style: inset;
+    -moz-border-left-colors: aquamarine;
+  }
